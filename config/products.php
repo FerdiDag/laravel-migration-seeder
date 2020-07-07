@@ -2,18 +2,18 @@
 
 return [
     [
-        'name' => 'Maglietta',
-        'product_type' => 'Vestito',
+        'name' => 'Tizio',
+        'surname' => 'Sempronio',
         'size' => 'M',
     ],
     [
-        'name' => 'Felpa',
-        'product_type' => 'Vestito',
+        'name' => 'Caio',
+        'surname' => 'Maio',
         'size' => 'L',
     ],
     [
-        'name' => 'Giacca',
-        'product_type' => 'Vestito',
+        'name' => 'Edoardo',
+        'surname' => 'Rossi',
         'size' => 'XL',
     ]
 ];

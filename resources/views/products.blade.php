@@ -14,7 +14,7 @@
                             <tr>
                                 <th scope="col">ID</th>
                                 <th scope="col">Name</th>
-                                <th scope="col">Product Type</th>
+                                <th scope="col">Surname</th>
                                 <th scope="col">Size</th>
                             </tr>
                         </thead>
@@ -23,7 +23,7 @@
                             <tr>
                                 <td>{{ $prodotto->id }}</td>
                                 <td>{{ $prodotto->name }}</td>
-                                <td>{{ $prodotto->product_type }}</td>
+                                <td>{{ $prodotto->surname }}</td>
                                 <td>{{ $prodotto->size }}</td>
                             </tr>
                             @endforeach
