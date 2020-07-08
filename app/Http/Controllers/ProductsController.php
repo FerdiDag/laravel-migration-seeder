@@ -7,10 +7,8 @@ use App\Product;
 class ProductsController extends Controller
 {
     public function index() {
-        $all_products = Product::all();
-        $data = [
-            'lista_prodotti' => $all_products
-        ];
-        return view('products')->with($data);
+        $prodotti = Product::all();
+
+        return view('products', ['lista_prodotti'=>$prodotti]);
      }
 }
